@@ -1,0 +1,30 @@
+body{
+    background-color: #FFF2CC;
+    
+}
+
+hr{
+    border-style: none;
+    background-color: #FFF2CC;
+    color: rgb(172, 9, 9);
+    border-top: 5px dotted; 
+    height: 2px ;
+    width: 5%;
+}
+
+h1{
+    color: rgb(172, 9, 9);
+}
+
+h3{
+    color: rgb(172, 9, 9);
+}
+
+.red-text{
+    color: rgb(172, 9, 9);
+}
+
+#project{
+    text-align: center;
+}
+

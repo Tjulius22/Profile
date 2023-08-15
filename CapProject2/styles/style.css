@@ -1,0 +1,160 @@
+#title{
+    background-image: url("../images/starry_sky.jpg");
+    background-repeat: no-repeat;
+    background-size: 3160px;
+    background-color: #cccccc;
+    position: relative;
+    padding-top: 200px;
+    
+}
+
+.moon{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+.earth{
+    align-items: center;
+    position: relative;
+}
+.title-text{
+    color: white;
+    margin: 0;
+}
+
+.profile{
+    padding: 100px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+
+.profile h2{
+    color: darkblue;
+    font-size: 2.4rem;
+}
+
+.about_me h2{
+    color: darkblue;
+    font-size: 2.4rem;
+}
+
+.about_me h3{
+    color: darkblue;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.about_me p{
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.interest{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.button{
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .copyright{
+    color: white;
+}
+
+.footer .footer-link{
+    color: white;
+}
+
+h1{
+   font-size: 5.625rem;
+   margin: 50px auto 0 auto;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile p{
+    font-size: 1.4rem;
+}
+
+div{
+    display: block;
+}
+
+body{
+    margin: 0; 
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-width: 7px;
+    border-color: darkgray;
+}
+
+@media (min-width: 281px) and (max-width: 1200px){
+   
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+        margin: 100px auto 0 auto;
+        gap: 0;
+    }
+  
+    .container .code{
+        order: 2;
+    }
+
+    .container .education{
+        order: 1;
+
+    }
+ 
+    .container .model{
+        order: 4;
+    }    
+
+    .container .hobby{
+        order: 3;
+    }    
+    .intro{
+        width: 50%;
+    }
+
+
+}
